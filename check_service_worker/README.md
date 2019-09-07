@@ -5,9 +5,9 @@
 
 ```
 func main() {
-	urls := []string{"http://google.com/", "https://facebook.com", "https://abc.com", "https://test.com", "https://test2.com"}
-	wokerPools := 3
-	checkHealthUrlsWorkerPools(urls, wokerPools)
+  urls := []string{"http://google.com/", "https://facebook.com", "https://abc.com", "https://test.com", "https://test2.com"}
+  wokerPools := 3
+  checkHealthUrlsWorkerPools(urls, wokerPools)
 }
 ```
 
