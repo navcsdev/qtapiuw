@@ -11,14 +11,14 @@
 
 ```
 func main() {
-	var relationships [][2]uint
+  var relationships [][2]uint
 
-	relationships = append(relationships, [2]uint{'A', 'B'})
-	relationships = append(relationships, [2]uint{'B', 'C'})
-	relationships = append(relationships, [2]uint{'E', 'B'})
-	relationships = append(relationships, [2]uint{'C', 'A'})
+  relationships = append(relationships, [2]uint{'A', 'B'})
+  relationships = append(relationships, [2]uint{'B', 'C'})
+  relationships = append(relationships, [2]uint{'E', 'B'})
+  relationships = append(relationships, [2]uint{'C', 'A'})
 
-	result := isViolation(relationships)
+  result := isViolation(relationships)
 
   fmt.Println("List has violation", result)
 }
